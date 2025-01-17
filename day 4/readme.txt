@@ -1,1 +1,1 @@
-This is the day 4 of my #101daysoffullstackdevelopementseries.Today I am going to build a personal portfolio website using html only.i know this is very basic but trust me..basics are most important things you need to know.Do checkout my code!
+A simple catphoto app from FREECODECAMP responsive web design HTML course.
