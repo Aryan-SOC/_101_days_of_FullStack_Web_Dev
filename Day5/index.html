@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First time in CSS</title>
+    <style>
+      .day {
+        color: yellow;
+      }
+      /* class selector */
+      .red {
+        color: white;
+        background-color: blue;
+      }
+
+      .green {
+        font-size: larger;
+        color: white;
+      }
+
+      /* id selector */
+      #hi {
+        color: blanchedalmond;
+      }
+      /* universel selectors */
+      * {
+        background-color: blue;
+        margin: 0%;
+        padding: 0%;
+      }
+      /* pseudo selectors */
+
+      a:visited {
+        color: yellow;
+        background-color: red;
+      }
+      a:active {
+        background-color: yellow;
+      }
+      a:hover {
+        background-color: red;
+      }
+      button {
+        color: #000;
+        background: white;
+        border: #a72424;
+        border-radius: 25%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="red">
+        <h1>Hey Everyone</h1>
+        <div class="day">
+          <h2>Day 5 Of #101daysofFullStackDevelopementChallenge.</h2>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="green">
+        <p>Today For the first time i am writting code for css.</p>
+      </div>
+    </section>
+    <section>
+      <div id="hi">
+        <h2>
+          Today i learned how to use some selectors in css like
+          div,class,id,universel,pseudo.today is the first day so i focused more
+          on learning than writing code.Soon i will start some small projects
+          that covers both of my html and css knowledge as i learn everyday.
+          <div></div>
+        </h2>
+      </div>
+    </section>
+    <section>
+      <div class="link">
+        <a target="_blank" href="https://google.com">Google</a><br />
+        <a target="_blank" href="https://instagram.com">instagram</a>
+      </div>
+    </section>
+    <button type="menu">submit</button>
+    <footer>
+      <p style="color: aliceblue">this is a footer</p>
+    </footer>
+  </body>
+</html>
